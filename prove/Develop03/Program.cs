@@ -7,7 +7,7 @@ namespace DailyScripture
         
         static void Main()
         {
-            Scripture scripture = new Scripture("3 Nephi ", 5, 13, "Behold, I am a disciple of Jesus Christ, the Son of God. I have been called of him to declare his word among his people, that they might have everlasting life. ");
+            Scripture scripture = new Scripture("John ", 5, 19, "Then answered Jesus and said unto them, Verily, verily, I say unto you, The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise. ");
             Console.Clear();
             scripture.Display(); 
             Console.WriteLine("\nPress Enter to continue or type 'quit' to exit.");
