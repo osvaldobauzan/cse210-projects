@@ -6,8 +6,8 @@ class Program
     static void Main(string[] args)
     {
         // Order 1
-        Address address1 = new Address("Angamos St 125", "San Borja", "Lima", "Peru");
-        Customer customer1 = new Customer("Valeria Alcala Guillen", address1);
+        Address address1 = new Address("Angamos St 125", "Bello Horizonte", "Puebla", "Mexico");
+        Customer customer1 = new Customer("Osvaldo Bauzan Alvaradejo", address1);
         List<Product> productsList1 = new List<Product>();
 
         Product p1001 = new Product("Graphing Calculator", "GC200", 65.99, 1);
